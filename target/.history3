@@ -1,0 +1,3 @@
+1632978986413:test
+1632980405655:testOnly practice.AdderTests
+1632980422464:testOnly practice.AdderTests -- -DwriteVcd=1
