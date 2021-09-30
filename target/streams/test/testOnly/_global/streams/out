@@ -1,10 +1,10 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(practice.CounterTests, org.scalatest.tools.Framework$$anon$1@59d30fc0, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mCounterTests:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- COUNTER[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 220 milliseconds.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(practice.AluTests, org.scalatest.tools.Framework$$anon$1@530942bf, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAluTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ALU - Arithmetic Logical Unit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 631 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	practice.CounterTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	practice.AluTests[0m

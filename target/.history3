@@ -12,3 +12,5 @@
 1632990025675:testOnly practice.OrTests -- -DwriteVcd=1
 1632997735133:testOnly practice.CounterTests
 1632998811068:testOnly practice.CounterTests -- -DwriteVcd=1
+1633002254778:testOnly practice.AluTests
+1633002387305:testOnly practice.AluTests -- -DwriteVcd=1

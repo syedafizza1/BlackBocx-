@@ -1,13 +1,12 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly practice.CounterTests -- -DwriteVcd=1, Some(f9486667-1f1d-4332-89c7-5faf491237be), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly practice.AluTests -- -DwriteVcd=1, Some(3c19315c-c8d9-4160-9b54-444b1bdb685a), Some(CommandSource(console0)))[0m
 [0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mCounterTests:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- COUNTER[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 220 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAluTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ALU - Arithmetic Logical Unit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 631 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 6 s, completed Sep 30, 2021 3:46:56 PM[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 6 s, completed Sep 30, 2021 4:46:33 PM[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
-[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
