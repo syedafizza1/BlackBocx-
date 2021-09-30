@@ -13,11 +13,11 @@ circuit Adder :
     input reset : UInt<1>
     output io : {flip a : UInt<4>, flip b : UInt<4>, sum : UInt<4>}
     
-    inst a of adder @[Adder.scala 21:19]
+    inst a of adder @[Adder.scala 32:19]
     a.sum is invalid
     a.b is invalid
     a.a is invalid
-    io.sum <= a.sum @[Adder.scala 23:10]
-    a.b <= io.b @[Adder.scala 23:10]
-    a.a <= io.a @[Adder.scala 23:10]
+    io.sum <= a.sum @[Adder.scala 34:10]
+    a.b <= io.b @[Adder.scala 34:10]
+    a.a <= io.a @[Adder.scala 34:10]
     

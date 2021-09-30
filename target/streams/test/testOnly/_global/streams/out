@@ -1,10 +1,10 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(practice.AdderTests, org.scalatest.tools.Framework$$anon$1@2ca30ba, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAdderTests:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Adder is beautiful[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 463 milliseconds.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(practice.CounterTests, org.scalatest.tools.Framework$$anon$1@59d30fc0, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCounterTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- COUNTER[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 220 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	practice.AdderTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	practice.CounterTests[0m

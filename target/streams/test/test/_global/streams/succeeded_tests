@@ -1,4 +1,7 @@
 #Successful Tests
-#Thu Sep 30 10:40:28 PKT 2021
+#Thu Sep 30 15:46:56 PKT 2021
 gcd.GCDSpec=1632979047682
-practice.AdderTests=1632980428305
+practice.AndTests=1632989530643
+practice.AdderTests=1632982387663
+practice.CounterTests=1632998816659
+practice.OrTests=1632990093311

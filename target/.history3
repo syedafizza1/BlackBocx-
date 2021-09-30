@@ -1,3 +1,14 @@
 1632978986413:test
 1632980405655:testOnly practice.AdderTests
 1632980422464:testOnly practice.AdderTests -- -DwriteVcd=1
+1632982101158:testOnly practice.AdderTests
+1632982382130:testOnly practice.AdderTests -- -DwriteVcd=1
+1632986816251:testOnly practice.ANDTest
+1632986827241:testOnly practice.AndTest
+1632988718044:testOnly practice.AndTests
+1632989398965:testOnly practice.AndTests -- -DwriteVcd=1
+1632989848747:testOnly practice.OrTests -- -DwriteVcd=1
+1632990007752:testOnly practice.OrTests
+1632990025675:testOnly practice.OrTests -- -DwriteVcd=1
+1632997735133:testOnly practice.CounterTests
+1632998811068:testOnly practice.CounterTests -- -DwriteVcd=1

@@ -18,6 +18,7 @@ class AdderTests extends FreeSpec with ChiselScalatestTester {
     test(new Adder()).withAnnotations(Seq(VerilatorBackendAnnotation)) { c =>
         c.io.a.poke(4.U)
         c.io.b.poke(3.U)
+        
         // c.io.i_clk.poke(Clock().asInstanceOf[Bool])
         
         // c.io.clk.poke(clock.asUInt()(0).asClock())
