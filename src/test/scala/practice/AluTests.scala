@@ -18,18 +18,37 @@ class AluTests extends FreeSpec with ChiselScalatestTester {
     test(new Alu()).withAnnotations(Seq(VerilatorBackendAnnotation)) { c =>
         c.io.A.poke(4.U)
         c.io.B.poke(3.U)
+        c.io.ALU_Sel.poke(0.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(1.U)
+        c.clock.step(1)
         c.io.ALU_Sel.poke(2.U)
-        // c.io.ALU_Out.poke(3.U)
-
-        
-        // c.io.i_clk.poke(Clock().asInstanceOf[Bool])
-        
-        // c.io.clk.poke(clock.asUInt()(0).asClock())
-        // c.io.rst_n.poke(0.B)
-        // c.io.data_in.poke(8.U)
-        // c.io.start.poke(1.B)
-
-
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(3.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(4.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(5.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(6.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(7.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(8.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(9.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(10.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(11.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(12.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(13.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(14.U)
+        c.clock.step(1)
+        c.io.ALU_Sel.poke(15.U)
         c.clock.step(20)
     }
   }

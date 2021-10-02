@@ -1,0 +1,1 @@
+/home/fizza/BlackBocx-/test_run_dir/Multiplexer_2BIT/mux2.v

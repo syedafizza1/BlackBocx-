@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: initialized: JsonRpcNotificationMessage(2.0, initialized, {})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: textDocument/didOpen: JsonRpcNotificationMessage(2.0, textDocument/didOpen, {"textDocument":{"uri":"file:///home/fizza/BlackBocx-/src/test/scala/practice/AluTests.scala","languageId":"scala","version":1,"text":"package practice\n\nimport chisel3._\nimport chisel3 . util._\nimport org.scalatest._\nimport chisel3.experimental._\nimport chiseltest._\nimport chisel3.experimental.BundleLiterals._\nimport chiseltest.experimental.TestOptionBuilder._\nimport chiseltest.internal.VerilatorBackendAnnotation\n// import org.scalatest.flatspec.AnyFlatSpec\n\n\n\nclass AluTests extends FreeSpec with ChiselScalatestTester {\n\n  \"ALU - Arithmetic Logical Unit\" in {\n    test(new Alu()).withAnnotations(Seq(VerilatorBackendAnnotation)) { c =>\n        c.io.A.poke(4.U)\n        c.io.B.poke(3.U)\n        c.io.ALU_Sel.poke(2.U)\n        // c.io.ALU_Out.poke(3.U)\n\n        \n        // c.io.i_clk.poke(Clock().asInstanceOf[Bool])\n        \n        // c.io.clk.poke(clock.asUInt()(0).asClock())\n        // c.io.rst_n.poke(0.B)\n        // c.io.data_in.poke(8.U)\n        // c.io.start.poke(1.B)\n\n\n        c.clock.step(20)\n    }\n  }\n}"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (/home/fizza/BlackBocx-/target/scala-2.12/zinc/inc_compile_2.12.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Oct 2, 2021 9:45:36 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Done"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

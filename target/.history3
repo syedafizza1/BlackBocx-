@@ -14,3 +14,8 @@
 1632998811068:testOnly practice.CounterTests -- -DwriteVcd=1
 1633002254778:testOnly practice.AluTests
 1633002387305:testOnly practice.AluTests -- -DwriteVcd=1
+1633155277688:testOnly practice.AluTest
+1633155487595:testOnly practice.AluTests -- -DwriteVcd=1
+1633160792095:acefhdee dhi jk lm nq
+1633160802325:opqrst.uiaevy
+1633161701064:testOnly practice.Mux2Tests

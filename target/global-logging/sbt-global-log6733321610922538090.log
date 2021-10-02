@@ -29,3 +29,6 @@
 [0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Sep 30, 2021 3:27:37 PM[0m
 [0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Done"})[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///home/fizza/BlackBocx-/src/main/scala/practice/Counter.scala"},"position":{"line":12,"character":23}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:     // clock    input(bool)[0m
