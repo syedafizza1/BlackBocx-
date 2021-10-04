@@ -1,11 +1,2 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/fizza/BlackBocx-/target/scala-2.12/classes.bak[0m
-[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Counter$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	IOd.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Counter.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	counter.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mRolling back changes to class files.[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0mRestoring class files: [0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/fizza/BlackBocx-/target/scala-2.12/classes.bak[0m

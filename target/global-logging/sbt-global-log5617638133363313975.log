@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly practice.SRamTests, Some(c500903e-203f-4cd5-8fb1-f2a7b131dbf3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: initialized: JsonRpcNotificationMessage(2.0, initialized, {})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: textDocument/didOpen: JsonRpcNotificationMessage(2.0, textDocument/didOpen, {"textDocument":{"uri":"file:///home/fizza/BlackBocx-/src/test/scala/practice/SRamTests.scala","languageId":"scala","version":1,"text":"package practice\n\nimport chisel3._\nimport chisel3 . util._\nimport org.scalatest._\nimport chisel3.experimental._\nimport chiseltest._\nimport chisel3.experimental.BundleLiterals._\nimport chiseltest.experimental.TestOptionBuilder._\nimport chiseltest.internal.VerilatorBackendAnnotation\n// import org.scalatest.flatspec.AnyFlatSpec\n\n\n\nclass SRamTests extends FreeSpec with ChiselScalatestTester {\n\n  \"SRAM\" in {\n    test(new SRam()).withAnnotations(Seq(VerilatorBackendAnnotation)) { c =>\n       // c.io.csb0.poke(0.B)\n        //c.io.web0.poke(0.B)\n        //c.io.addr0.poke(3.U)\n        //c.io.din0.poke(2.U)\n        \n        // //c.io.clk0.poke(clock.asUInt()(0).asClock())\n        c.io.csb0.poke(0.B)\n        c.io.web0.poke(0.B)\n        c.io.addr0.poke(3.U)\n        c.io.din0.poke(2.U)\n\n        // // c.io.rst_n.poke(0.B)\n        // // c.io.data_in.poke(8.U)\n        // // c.io.start.poke(1.B)\n\n        // // val clk0 = Input(Bool())\n        // // val csb0 = Input(Bool())\n        // // val web0 = Input(Bool())\n        // // val addr0 = Input(UInt(7.W))\n        // // val din0 = Input(UInt(32.W))\n        // // val dout0 = Output(UInt(32.W))\n\n\n        c.clock.step(20)\n    }\n  }\n}\n"}})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSRamTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- SRAM[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mSRamTests:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- SRAM\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 7 seconds, 471 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 7 seconds, 471 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 1\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m"})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 12 s, completed Oct 3, 2021 11:40:51 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

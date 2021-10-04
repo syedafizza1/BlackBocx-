@@ -20,3 +20,10 @@
 1633160802325:opqrst.uiaevy
 1633161701064:testOnly practice.Mux2Tests
 1633175334515:testOnly practice.SRamTests
+1633247386764:testOnly practice.SRamTests -- -DwriteVcd=1
+1633249856372:testOnly practice.SRamTests
+1633258462471:testOnly practice.mwTests
+1633258963414:testOnly practice.SRamTests
+1633259755561:testOnly practice.SRamTests -- -DwriteVcd=1
+1633286439470:testOnly practice.SRamTests
+1633347647304:testOnly practice.SRamTests -- -DwriteVcd=1

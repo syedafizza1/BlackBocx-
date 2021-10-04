@@ -2,7 +2,6 @@
 // Words: 128
 // Word size: 32
 
-//module sram_32_128_freepdk45(
 module sram(
 // Port 0: RW
     clk0,csb0,web0,addr0,din0,dout0
@@ -15,7 +14,7 @@ module sram(
   parameter DELAY = 3 ;
 
   input  clk0; // clock
-  input   csb0; // active low chip select
+  input  csb0; // active low chip select
   input  web0; // active low write control
   input [ADDR_WIDTH-1:0]  addr0;
   input [DATA_WIDTH-1:0]  din0;
@@ -53,10 +52,10 @@ reg [DATA_WIDTH-1:0]    mem [0:RAM_DEPTH-1];
 
   // Memory Read Block Port 0
   // Read Operation : When web0 = 1, csb0 = 0
-  always @ (negedge clk0)
-  begin : MEM_READ0
-    if (!csb0_reg && web0_reg)
-       dout0 <= #(DELAY) mem[addr0_reg];
-  end
+  //always @ (negedge clk0)
+  //begin : MEM_READ0
+    //if (!csb0_reg && web0_reg)
+       //dout0 <= DELAY mem[addr0_reg];
+  //end
 
 endmodule
