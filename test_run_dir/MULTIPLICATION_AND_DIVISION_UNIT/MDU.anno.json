@@ -1,0 +1,15 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxResourceAnno",
+    "target":"MDU.mdu",
+    "resourceId":"/mdu.v"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/MULTIPLICATION_AND_DIVISION_UNIT"
+  }
+]

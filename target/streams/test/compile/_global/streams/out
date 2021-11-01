@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/fizza/BlackBocx-/src/test/scala/practice/SRamTests.scala:40:30: ';' expected but ')' found.[0m
-[0m[[0m[31merror[0m] [0m[0m         torBackendAnnotation)) { c =>[0m
-[0m[[0m[31merror[0m] [0m[0m                             ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/fizza/BlackBocx-/src/test/scala/practice/SRamTests.scala:41:7: Missing closing brace `}' assumed here[0m
-[0m[[0m[31merror[0m] [0m[0m      c.io.csb0.poke(0.B)[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/fizza/BlackBocx-/src/test/scala/practice/MDUTests.scala:26:9: multiline expressions might require enclosing parentheses; a value can be silently discarded when Unit is expected[0m
+[0m[[0m[33mwarn[0m] [0m[0m        c//.io.o_mdu_rd.expect(5.U)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

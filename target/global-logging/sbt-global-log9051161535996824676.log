@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: initialized: JsonRpcNotificationMessage(2.0, initialized, {})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: textDocument/didOpen: JsonRpcNotificationMessage(2.0, textDocument/didOpen, {"textDocument":{"uri":"file:///home/fizza/BlackBocx-/src/main/scala/practice/And.scala","languageId":"scala","version":1,"text":"package practice\n\nimport chisel3._\nimport chisel3.util._\nimport chisel3.experimental._\n\nclass IOs extends Bundle{\n    val A = Input(Bool())\n    val B = Input(Bool())\n    val Y = Output(Bool())\n    // clock    input(bool)\n    // reset    == = = = = \n}\n\nclass andGate extends BlackBox with HasBlackBoxResource{\n    val io = IO(new IOs)\n    addResource(\"/andGate.v\")\n}\n\nclass And extends Module{\n\n    val io = IO(new IOs)\n\n    // val io = IO(new Bundle{\n    //     a\n    //     B\n    //     sum\n    // })\n    // val clk = WireInit(clock.asUInt()(0))\n    // a.io.clock := ~clk\n\n    val a = Module(new andGate)\n\n    a.io <> io\n\n}"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (/home/fizza/BlackBocx-/target/scala-2.12/zinc/inc_compile_2.12.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Oct 22, 2021 11:44:54 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Done"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

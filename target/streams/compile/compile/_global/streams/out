@@ -1,5 +1,5 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/fizza/BlackBocx-/src/main/scala/practice/SRam.scala:31:7: Generated class practice.SRam differs only in case from practice.sram.[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/fizza/BlackBocx-/src/main/scala/practice/MDU.scala:36:7: Generated class practice.MDU differs only in case from practice.mdu.[0m
 [0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
-[0m[[0m[33mwarn[0m] [0m[0mclass SRam extends Module{[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass MDU extends Module{[0m
 [0m[[0m[33mwarn[0m] [0m[0m      ^[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

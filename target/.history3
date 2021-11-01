@@ -27,3 +27,5 @@
 1633259755561:testOnly practice.SRamTests -- -DwriteVcd=1
 1633286439470:testOnly practice.SRamTests
 1633347647304:testOnly practice.SRamTests -- -DwriteVcd=1
+1634900353241:testOnly practice.MDUTests
+1635745873835:testOnly practice.MDUTests -- -DwriteVcd=1

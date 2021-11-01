@@ -1,10 +1,11 @@
 #Successful Tests
-#Mon Oct 04 16:45:38 PKT 2021
+#Mon Nov 01 10:51:19 PKT 2021
+practice.SRamTests=1634885071448
 gcd.GCDSpec=1632979047682
-practice.AndTests=1632989530643
-practice.SRamTests=1633347938935
-practice.Mux2Tests=1633170971108
-practice.AdderTests=1632982387663
-practice.CounterTests=1632998816659
-practice.AluTests=1633160778282
+practice.MDUTests=1635745879871
 practice.OrTests=1632990093311
+practice.AdderTests=1632982387663
+practice.Mux2Tests=1633170971108
+practice.CounterTests=1632998816659
+practice.AndTests=1632989530643
+practice.AluTests=1633160778282
